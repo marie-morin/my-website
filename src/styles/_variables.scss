@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+// Couleurs
+$primary-color: #fcedea;
+$secondary-color: #004e63;
+$font-color: #7a7a7a;
+
+// Fonts
+$main-font: 'Lato', sans-serif;
+
+// Margin - Padding
+$base-padding: 1.5rem;
+$centered-margin: 0 auto;
+$marged-centered-margin: 2rem auto;
+
+// Raduis
+$small-radius: 0.3rem;
+$generic-radius: 0.6rem;
+$round-radius: 50%;
+
+// Box shadow
+$shadow: 0 0.3rem 1.5rem rgba(0,0,0,0.2);
+
+// Responsive break points
+$break-mini: 375px;
+$break-small: 425px;
+$break-tablet: 768px;
+$break-medium: 1024px;
+$break-large: 1210px;
+$break-header: 1500px;

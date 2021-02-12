@@ -7,10 +7,18 @@ import NotFound from "./pages/NotFound";
 
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
+// import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import "./App.css";
+import "./styles/App.scss";
+import "./styles/_variables.scss";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, fas);
 
 function App() {
   return (
@@ -26,6 +34,7 @@ function App() {
         <Route path="/contact" exact component={Contact} />
         <Route path="/" component={NotFound} />
       </Switch>
+      {/* <Footer /> */}
     </Router>
   );
 }

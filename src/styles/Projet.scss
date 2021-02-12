@@ -1,0 +1,21 @@
+.projet {
+
+    &_hero {
+        padding-top: 6rem;
+        text-align: center;
+    
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_intro {
+        text-align: center;
+    }
+
+    &_metas {
+        height: 30rem;
+        background-color: pink;
+    }
+}
+

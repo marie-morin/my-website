@@ -1,0 +1,22 @@
+.container {
+  // background-color: lightsalmon;
+  max-width: 110rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (max-width: $break-header) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  @media screen and (max-width: $break-tablet) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  @media screen and (max-width: $break-small) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
